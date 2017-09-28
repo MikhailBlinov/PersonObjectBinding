@@ -1,0 +1,5 @@
+D:\Archiv\Samples\AFTERAMARTTECH\WPF\PersonObjectBinding\PersonLibrary\bin\Debug\PersonLibrary.dll
+D:\Archiv\Samples\AFTERAMARTTECH\WPF\PersonObjectBinding\PersonLibrary\bin\Debug\PersonLibrary.pdb
+D:\Archiv\Samples\AFTERAMARTTECH\WPF\PersonObjectBinding\PersonLibrary\obj\Debug\PersonLibrary.csprojResolveAssemblyReference.cache
+D:\Archiv\Samples\AFTERAMARTTECH\WPF\PersonObjectBinding\PersonLibrary\obj\Debug\PersonLibrary.dll
+D:\Archiv\Samples\AFTERAMARTTECH\WPF\PersonObjectBinding\PersonLibrary\obj\Debug\PersonLibrary.pdb
