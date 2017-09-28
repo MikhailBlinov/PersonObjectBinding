@@ -1,0 +1,29 @@
+﻿<Window x:Class="PersonObject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PersonObject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="604" Width="525" Loaded="Window_Loaded">
+    <Grid Name="Grd"  Background="#FFEAEAD1" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" ></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" Click="Button_Click_1"> Показать</Button>
+        <Button Grid.Row="0" Grid.Column="1" Click="Button_Click_2"> Показать измененное </Button>
+        <Label Name="LabelLastName" HorizontalAlignment="Center" VerticalAlignment="Center" Content="LastName" Grid.Row="1" Grid.Column="0"></Label>
+        <TextBox  Name="LabelLastNameValue" HorizontalAlignment="Stretch" Text="{Binding Path=LastName}" VerticalAlignment="Stretch"  Grid.Row="1" Grid.Column="1"></TextBox>
+        <Label Name="LabelFirstName" HorizontalAlignment="Center" VerticalAlignment="Center" Content="FirstName" Grid.Row="2" Grid.Column="0"></Label>
+        <TextBox Name="LabelFirstNameValue" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="{Binding Path=FirstName}" Grid.Row="2" Grid.Column="1"></TextBox>
+        <Label Name="LabelAge" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Content="Age" Grid.Column="0"></Label>
+        <TextBox Name="LabelAgeValue" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="3" Text="{Binding Path=Age}"  Grid.Column="1"></TextBox>
+    </Grid>
+</Window>

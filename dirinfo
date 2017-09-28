@@ -1,0 +1,18 @@
+
+   Проект описывает привязку кдасса Person к экранной форме, 
+   на которой к каждому текстовому полю привязывается поле класса Person.
+   Класс Person состоит из полей Age, FirstName, LastName.
+   
+   Для правильного создания привязки объекта к экранной форме нужно 
+   создать объект Person унаследованный от класса DependencyObject.
+   Каждое свойство объекта Person нужно зарегистрировать как DependencyProperty.
+   Далее в XAML редакторе сделать привязку экранных меток к свойствам класса Person
+   
+    <TextBox Text="{Binding Path=LastName}" />
+    <TextBox Text="{Binding FirstName}" />
+    <TextBox Text="{Binding Age}" />
+	
+	В коде нужно присвоить свойству DataContext объект person
+	          DataContext = person;
+   
+   В проекте создан класс Person в библиотеке(проекте) PersonLibrary
